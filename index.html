@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Interactive Website</h1>
+        <button id="themeBtn">Switch Theme</button>
+    </header>
+
+    <main>
+
+        <!-- Feature 1: Form Validation -->
+        <section class="box">
+            <h2>Signup Form</h2>
+            <form id="signupForm">
+                <input type="text" id="username" placeholder="Enter your name"><br>
+                <input type="email" id="email" placeholder="Enter your email"><br>
+                <button type="submit">Submit</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+
+        <!-- Feature 2: Button That Changes Text -->
+        <section class="box">
+            <h2>Click the Button</h2>
+            <p id="changeText">This text will change!</p>
+            <button id="changeBtn">Change Text</button>
+        </section>
+
+        <!-- Feature 3: Image Change -->
+        <section class="box">
+            <h2>Click the Image</h2>
+            <img id="myImage" src="img1.jpg" alt="Image" width="200">
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
